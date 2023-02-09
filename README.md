@@ -1,5 +1,11 @@
 <img src="./λ.png" width="500px"></img>
 
+## Run with Moreh
+        pip install lambda-networks
+        cd lambda_networks
+        python ./global_context.py
+        python ./local_context.py
+
 ## Lambda Networks - Pytorch
 
 Implementation of λ Networks, a new approach to image recognition that reaches SOTA on ImageNet. The new method utilizes λ layer, which captures interactions by transforming contexts into linear functions, termed lambdas, and applying these linear functions to each input separately.
