@@ -1,10 +1,14 @@
 <img src="./λ.png" width="500px"></img>
 
 ## Run with Moreh
+	
+	conda create -n lambda
         pip install lambda-networks
+	update-moreh --force
+
         cd lambda_networks
-        python ./global_context.py
-        python ./local_context.py
+        python global_context.py
+        python local_context.py
 
 ## Lambda Networks - Pytorch
 
